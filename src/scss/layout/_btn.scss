@@ -1,0 +1,150 @@
+/////     log buttons/section buttons    ////
+.primary-btn {
+  background-color: #940404;
+  border-radius: 16px;
+  border-width: 0 0 3px 2px;
+  color: #95ff00dc;
+  cursor: pointer;
+  font-family: "RoadRage-Regular";
+  font-size: 25px;
+  overflow: visible;
+  letter-spacing: 3px;
+  text-align: center;
+  justify-content: center;
+  padding: 0.8rem 1.8rem;
+  border-style: none;
+  -webkit-box-shadow: 6px 6px 19px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 19px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 19px -4px rgba(0, 0, 0, 0.75);
+  &:hover {
+    filter: brightness(1);
+    color: #fff;
+  }
+  @media (max-width: 800px) {
+    display: flex;
+    padding-top: 3px;
+    font-size: 13px;
+    height: 30px;
+    width: 90px; 
+    text-size-adjust:auto;
+    &:hover {
+      filter: brightness(1);
+      color: #fff;
+    }
+  }
+}
+
+/////    edit-button / get-button     ////
+.secondary-btn {
+  background-color: #940404;
+  border-radius: 16px;
+  border-width: 0 0 3px 2px;
+  color: #94ff00;
+  font-family: "RoadRage-Regular";
+  font-size: 24px;
+  height: 35px;
+  letter-spacing: 3px;
+  width: 60px;
+  &:hover {
+    filter: brightness(1);
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+/////     guardar cambios en Edit/ add Character    ////
+.submit-btn {
+  background: #851313;
+  border: solid transparent;
+  border-radius: 16px;
+  color: #94ff00;
+  cursor: pointer;
+  font-family: "RoadRage-Regular";
+  font-size: 23px;
+  letter-spacing: 0.8px;
+  height: 40px;
+  width: 150px;
+}
+
+.submit-btn:hover {
+  filter: brightness(1.1);
+  color: #fff;
+}
+
+.btn-close {
+  font-family: "RoadRage-Regular";
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+  right: 22px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
+  color: rgb(211, 188, 188);
+  @media (max-width: 800px) {
+    font-family: "RoadRage-Regular";
+  background: transparent;
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+  right: 22px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
+  color: rgb(211, 188, 188);
+  }
+  .btn-close:hover {
+    color: #b62323;
+    font-size: 28px;
+    }
+  
+}
+
+.btn-close:hover {
+  color: #b62323;
+  font-size: 28px;
+  }
+
+
+.btn-close-edit {
+  font-family: "RoadRage-Regular";
+  background: transparent;
+  font-size: 22px;
+  position: absolute;
+  top: 3px;
+  right: 18px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
+}
+
+.btn-close-edit:hover {
+  color: #b62323;
+  font-size: 24px;
+  }
+
+.btn-about {
+  font-family: "RoadRage-Regular";
+    background: transparent;
+    font-size: 25px;
+    position: absolute;
+    top: 3px;
+    right: 18px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    height: 10px;
+    width: 10px;
+    color: #94ff00;
+}
+
+.btn-about:hover{
+  color: #b62323;
+}
